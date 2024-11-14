@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Best Navbar">
+    <title>Navbar Practice</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-transform: uppercase;
+            font-family: "New Amsterdam", sans-serif;
+            
+
+        }
+
+        body {
+            background-color: rgb(211, 218, 224);
+        }
+
+        nav {
+        
+            margin:10px 10px 0px;
+            width: 98%;
+            height: 80px;
+            background-color: #f91616;
+    border-radius: 8px;
+            display: flex;
+            justify-content: space-around;
+            cursor: pointer;
+            align-items: center;
+            overflow: hidden;
+            
+        }
+
+        .logo {
+            font-size: 50px;
+            font-weight: lighter;
+            letter-spacing: 3px;
+            color: white;
+
+        }
+
+        .menu a {
+            text-decoration: none;
+            font-size: 22px;
+            font-weight: lighter;
+            color: white;
+            padding: 15px;
+            letter-spacing: 2px;
+            
+        }
+
+        .sign button {
+            width: 120px;
+            height: 45px;
+            border-radius: 10px;
+            background-color:  rgb(211, 218, 224);
+            font-size: 19px;
+            letter-spacing: 1px;
+            color:#f91616;
+            border: 1px solid rgb(204, 7, 7);
+            &:hover{
+            transition: 0.2s linear;
+            border:none;
+            color:#ec2828;
+            background-color:  rgb(211, 218, 224);
+            letter-spacing: 4px;
+        }
+        }
+        a:hover{
+            background-color: rgb(211, 218, 224);
+            transition: 0.2s linear;
+            border-radius: 10px;
+            color:#ec2828
+        }
+        
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">YUP !</div>
+            <div class="menu">
+                <a href="#">home</a>
+                <a href="#">About</a>
+                <a href="#">Contact us</a>
+                <a href="#">Services</a>
+            </div>
+            <div class="sign">
+                <button>Sign in</button>
+            </div>
+        </nav>
+    </header>
+</body>
+
+</html>
